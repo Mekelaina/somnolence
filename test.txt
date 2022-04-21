@@ -1,0 +1,10 @@
+This is a file
+  which has
+multiple lines
+    with various indentation,
+blank lines
+
+
+
+a really long line to show that the line will be counted as two lines if the length of a line is too long to fit in the buffer it has been given,
+  and punctuation at the end of the lines.
