@@ -3,7 +3,9 @@
     #include <string.h>
 
     #include "file_reader.h"
+    #include "linked_list.h"
     #include "script.h"
+    #include "keywords.h"
 
     int main(int argc, char **argv)
     {    
@@ -35,13 +37,17 @@
             perror(path);
         }
 
-        
-        printf("ID: %d\nPath: %s\n", s.id, path);
+        // print file contents
+        /* printf("ID: %d\nPath: %s\n", s.id, path);
         
 
         for(i = 0; i < s.line_count; i++)
         {
             printf("%s", s.content[i]);
-        }
+        } */
+
+        printf("keyword \"declare\": %s\n", keyword_str[DECLARE]);
+        printf("there are %d keywords.\n", TOTAL_KEYWORDS);
+
         return 0;   
     }  
