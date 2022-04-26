@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 #include "script.h"
+//#include "vector.h"
 
 #define MAX_LINE_SIZE 128
-extern int ids = 0;
+int ids = 0;
 
 Script readFile(FILE *file, char *path)
 {

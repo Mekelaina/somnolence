@@ -3,9 +3,8 @@
     #include <string.h>
 
     #include "file_reader.h"
-    #include "linked_list.h"
-    #include "script.h"
-    #include "keywords.h"
+ 
+    
 
     int main(int argc, char **argv)
     {    
@@ -46,8 +45,6 @@
             printf("%s", s.content[i]);
         } */
 
-        printf("keyword \"declare\": %s\n", keyword_str[DECLARE]);
-        printf("there are %d keywords.\n", TOTAL_KEYWORDS);
 
         return 0;   
     }  
